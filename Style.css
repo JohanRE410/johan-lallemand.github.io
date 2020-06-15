@@ -1,0 +1,192 @@
+﻿@charset "UTF-8";
+/* Définition de la police personnalisée */
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat/montserrat-regular.eot");
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("Montserrat/montserrat-regular.eot?#iefix") format("embedded-opentype"), url("Montserrat/montserrat-regular.woff2") format("woff2"), url("Montserrat/montserrat-regular.woff") format("woff"), url("Montserrat/montserrat-regular.ttf") format("truetype"), url("Montserrat/montserrat-regular.svg#Montserrat") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+/* Eléments principaux de la page */
+#page {
+  max-width: 1170px;
+  margin: auto;
+}
+
+body {
+  font-family: "Montserrat", arial, sans-serif;
+  background-color: #fcfdfc;
+  color: #181818;
+  width: 100%;
+}
+
+body h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+body p {
+  text-align: justify;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+/* En-tête */
+header {
+  display: flex;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid 4px rgba(117, 119, 118, 0.2);
+  margin-top: 35px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 span {
+  color: #f4be2d;
+}
+
+p span {
+  text-decoration: underline #f4be2d;
+}
+
+#identite {
+  width: 68%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 65px;
+}
+
+/* Bannière */
+.banniere {
+  background-color: #f2e422;
+  color: #274897;
+  width: 32%;
+  position: relative;
+}
+
+.banniere h3 {
+  background-color: #274897;
+  color: #f2e422;
+  text-align: center;
+}
+
+h3 p {
+  text-align: justify;
+}
+
+i {
+  display: flex;
+  justify-content: space-around;
+}
+
+aside .fas {
+  font-size: 2.8em;
+}
+
+aside li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#contact {
+  height: 280px;
+}
+
+#contact ul {
+  padding-right: 40px;
+}
+
+#motive {
+  height: 700px;
+}
+
+#motive p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#loisir {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Corps */
+.titre {
+  width: 100%;
+  display: flex;
+}
+
+article h2 {
+  color: #757776;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+section {
+  display: flex;
+}
+
+#contenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.fa-briefcase:before {
+  padding-right: 30px;
+}
+
+.fa-graduation-cap::before {
+  padding-right: 30px;
+}
+
+.fa-pencil-alt::before {
+  padding-right: 30px;
+}
+
+.fa-circle:before {
+  font-size: 0.5em;
+}
+
+.date i {
+  color: #f4be2d;
+}
+
+.date {
+  width: 40%;
+  display: flex;
+}
+
+.date p {
+  padding-left: 10px;
+}
+
+.detail {
+  width: 60%;
+}
+
+/* Pied de page */
+.recommandation {
+  width: 50%;
+}
+
+footer {
+  width: 100%;
+}
+
+footer h2 {
+  color: #757776;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
