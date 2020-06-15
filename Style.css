@@ -8,7 +8,7 @@
 }
 /* Eléments principaux de la page */
 #page {
-  max-width: 1170px;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -68,7 +68,8 @@ p span {
   background-color: #f2e422;
   color: #274897;
   width: 32%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .banniere h3 {
@@ -96,7 +97,7 @@ aside li {
 }
 
 #contact {
-  height: 280px;
+  height: 300px;
 }
 
 #contact ul {
@@ -104,7 +105,7 @@ aside li {
 }
 
 #motive {
-  height: 700px;
+  height: 733px;
 }
 
 #motive p {
@@ -116,6 +117,7 @@ aside li {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
+  height: 60px;
 }
 
 /* Corps */
@@ -136,7 +138,7 @@ section {
 
 #contenu {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 68%;
   padding-left: 40px;
   padding-right: 40px;
