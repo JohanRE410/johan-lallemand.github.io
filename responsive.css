@@ -1,8 +1,5 @@
-﻿@charset "UTF-8";
-@media screen and (max-width: 768px){
-    #page{
-        min-width: 596px;
-    }
+﻿@media screen and (max-width: 768px){
+    
     #photo{
         background: none;
     }
@@ -25,9 +22,8 @@
         text-decoration: underline;
     }
 
-    aside:last-child{
-        position: relative;
-        top: 180px;
+    main{
+        
     }
 
 
