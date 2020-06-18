@@ -10,10 +10,9 @@ body {
     font-family: "Montserrat", arial, sans-serif;
     background-color: #fcfdfc;
     color: #181818;
-    width: 100%;
-    max-width: 960px;
+    width: 1200px;
+    height:1299px;
     margin: auto;
-    
 }
 
     body h1, h2, h3 {
@@ -31,16 +30,27 @@ body {
 /* En-tête */
 header {
     display: flex;
-    width:100%;
+    
+}
+
+#photo {
+    background-color: #f2e422;
+    width: 35%;
+    position: relative;
+    float: left;
 }
 
 img {
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
     border: solid 4px rgba(117, 119, 118, 0.2);
-    margin-top: 35px;
     max-width: 100%;
+}
+
+#identite {
+    width: 60%;
+    padding-left: 50px;
+    margin-top: 65px;
 }
 
 h1 span {
@@ -51,26 +61,15 @@ p span {
     text-decoration: underline #f4be2d;
 }
 
-#identite {
-    width: 68%;
-    padding-left: 73px;
-    margin-top: 65px;
-}
-
-#photo {
-    background-color: #f2e422;
-    width: 35%;
-}
-
 /* Bannière */
 main {
     background-color: #f2e422;
     color: #274897;
-    width: 32%;
+    width: 35%;
     display: flex;
     flex-direction: column;
     float: left;
-    height: 1188px;
+    height: 1074px;
     justify-content: space-between;
 }
 
@@ -94,20 +93,10 @@ main li {
     padding-bottom: 10px;
 }
 
-#contact {
+#motive p {
+    padding-left: 40px;
+    padding-right: 40px;
 }
-
-    #contact ul {
-        padding-right: 40px;
-    }
-
-#motive {
-}
-
-    #motive p {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
 
 #loisir {
     display: flex;
@@ -116,8 +105,8 @@ main li {
 
 /* Corps */
 .titre {
-    width: 100%;
     display: flex;
+    justify-content:space-between;
 }
 
 article h2 {
@@ -130,10 +119,8 @@ section {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
+    flex-wrap: wrap;
 }
-
-
-
 
 .fa-briefcase:before {
     padding-right: 30px;
@@ -156,7 +143,7 @@ section {
 }
 
 .date {
-    width: 40%;
+    width: 30%;
     display: flex;
 }
 
@@ -165,24 +152,22 @@ section {
     }
 
 .detail {
-    width: 60%;
+    width: 70%;
 }
 
 /* Pied de page */
-.recommandation {
-    width: 50%;
-}
-
 footer {
-    width: 62%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
+    width: 60%;
+    padding-left: 60px;
+    float: right;
 }
 
     footer h2 {
         color: #757776;
         border-bottom-style: solid;
         border-bottom-width: 2px;
+    }
+
+    footer ul{
+        padding-left:0;
     }

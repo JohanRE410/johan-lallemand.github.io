@@ -1,36 +1,40 @@
-﻿@media screen and (max-width: 768px){
-    
-    #photo{
-        background: none;
+﻿@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
     }
 
-    .titre{
-        display: flex;
+    #photo {
+        background: none;
+        margin: auto 50px;
+        width: 35%
+    }
+
+    #identité {
+        width: 60%;
+    }
+
+    .titre {
         flex-direction: column;
     }
 
-    footer{
-        display: none;
-    }
-
-    .detail{
+    .date {
         width: 100%;
     }
 
-    .date{
+    .detail {
         width: 100%;
+        padding-left: 12px;
+    }
+
+    section {
+        width: 54%;
+    }
+
+    .date {
         text-decoration: underline;
     }
 
-    main{
-        
+    main {
+        width: 30%;
     }
-
-
 }
-
-
-
-
-
-
