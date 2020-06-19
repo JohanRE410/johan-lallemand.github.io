@@ -1,40 +1,74 @@
-﻿@charset "UTF-8";
-@media screen and (max-width: 768px){
-    #page{
-        min-width: 596px;
-    }
-    #photo{
-        background: none;
-    }
-
-    .titre{
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer{
-        display: none;
-    }
-
-    .detail{
+﻿@media screen and (max-width: 1000px) {
+    body {
         width: 100%;
+        margin: auto;
     }
 
-    .date{
+    #photo {
+        background: none;
+        margin: auto 50px;
+        width: 35%
+    }
+
+    #identité {
+        padding-left: 0;
+    }
+
+    #loisir, #contact, #motive {
+        height: initial;
+        border: solid 4px rgba(117, 119, 118, 0.2);
+    }
+
+        #contact ul {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #loisir p {
+            flex-direction: column;
+            padding-top: 2.5em;
+            padding-left: 0.6em;
+        }
+
+    .titre {
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+
+    .date {
         width: 100%;
         text-decoration: underline;
     }
 
-    aside:last-child{
-        position: relative;
-        top: 180px;
+    .detail {
+        width: 100%;
+        padding-left: 12px;
     }
 
+    section {
+        margin: auto 20px;
+        width: initial;
+    }
 
+    main {
+        height: auto;
+        float: none;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    footer {
+        width: initial;
+        margin: auto 20px;
+        display: inherit;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    main {
+        display:none;
+    }
 
-
-
-
-
+    
+}
