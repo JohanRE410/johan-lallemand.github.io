@@ -10,9 +10,7 @@ body {
     font-family: "Montserrat", arial, sans-serif;
     background-color: #fcfdfc;
     color: #181818;
-    width: 1200px;
-    height:1299px;
-    margin: auto;
+    width: 100%;
 }
 
     body h1, h2, h3 {
@@ -30,14 +28,11 @@ body {
 /* En-tête */
 header {
     display: flex;
-    
 }
 
 #photo {
     background-color: #f2e422;
     width: 35%;
-    position: relative;
-    float: left;
 }
 
 img {
@@ -69,8 +64,7 @@ main {
     display: flex;
     flex-direction: column;
     float: left;
-    height: 1074px;
-    justify-content: space-between;
+    height: 1170px;
 }
 
     main h3 {
@@ -79,34 +73,42 @@ main {
         text-align: center;
     }
 
-i {
-    display: flex;
-    justify-content: space-around;
+    main .fas {
+        font-size: 2.8em;
+    }
+
+    main li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+#contact {
+    height: 320px;
 }
 
-main .fas {
-    font-size: 2.8em;
+#motive {
+    height: 660px;
 }
 
-main li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#motive p {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    #motive p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
 #loisir {
-    display: flex;
-    justify-content: space-around;
+    height: 182px;
 }
+
+    #loisir p {
+        display: flex;
+        padding-top: 2em;
+        justify-content: space-around;
+    }
 
 /* Corps */
 .titre {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 article h2 {
@@ -119,7 +121,7 @@ section {
     display: flex;
     flex-direction: column;
     padding-left: 50px;
-    flex-wrap: wrap;
+    width: 60%;
 }
 
 .fa-briefcase:before {
@@ -153,13 +155,14 @@ section {
 
 .detail {
     width: 70%;
+    padding-right: 10px;
 }
 
 /* Pied de page */
 footer {
     width: 60%;
-    padding-left: 60px;
-    float: right;
+    padding-left: 50px;
+    display: inline-block;
 }
 
     footer h2 {
@@ -168,6 +171,7 @@ footer {
         border-bottom-width: 2px;
     }
 
-    footer ul{
-        padding-left:0;
+    footer ul {
+        padding-left: 10px;
+        padding-right: 10px;
     }

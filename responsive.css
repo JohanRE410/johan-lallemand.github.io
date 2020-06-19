@@ -1,6 +1,7 @@
-﻿@media screen and (max-width: 768px) {
+﻿@media screen and (max-width: 1000px) {
     body {
         width: 100%;
+        margin: auto;
     }
 
     #photo {
@@ -10,15 +11,34 @@
     }
 
     #identité {
-        width: 60%;
+        padding-left: 0;
     }
+
+    #loisir, #contact, #motive {
+        height: initial;
+        border: solid 4px rgba(117, 119, 118, 0.2);
+    }
+
+        #contact ul {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        #loisir p {
+            flex-direction: column;
+            padding-top: 2.5em;
+            padding-left: 0.6em;
+        }
 
     .titre {
         flex-direction: column;
+        margin-left: 15px;
+        margin-right: 20px;
     }
 
     .date {
         width: 100%;
+        text-decoration: underline;
     }
 
     .detail {
@@ -27,14 +47,28 @@
     }
 
     section {
-        width: 54%;
-    }
-
-    .date {
-        text-decoration: underline;
+        margin: auto 20px;
+        width: initial;
     }
 
     main {
-        width: 30%;
+        height: auto;
+        float: none;
+        flex-direction: row;
+        width: 100%;
     }
+
+    footer {
+        width: initial;
+        margin: auto 20px;
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display:none;
+    }
+
+    
 }
