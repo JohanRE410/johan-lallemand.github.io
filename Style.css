@@ -65,7 +65,7 @@ main {
     display: flex;
     flex-direction: column;
     float: left;
-    height: 1170px;
+    height: 1074px;
 }
 
     main h3 {
@@ -109,10 +109,10 @@ main {
 /* Corps */
 .titre {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-article h2 {
+section h2 {
     color: #757776;
     border-bottom-style: solid;
     border-bottom-width: 2px;
