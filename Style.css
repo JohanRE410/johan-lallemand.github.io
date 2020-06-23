@@ -37,8 +37,9 @@ header {
 }
 
 img {
+
     margin: auto;
-    display: block;
+    border-radius: 5em;
     border: solid 4px rgba(117, 119, 118, 0.2);
     max-width: 100%;
 }
