@@ -1,7 +1,9 @@
 ﻿@font-face {
     font-family: "Montserrat";
     src: url("Montserrat/montserrat-regular.eot");
-    src: local("Montserrat Regular"), local("Montserrat-Regular"), url("Montserrat/montserrat-regular.eot?#iefix") format("embedded-opentype"), url("Montserrat/montserrat-regular.woff2") format("woff2"), url("Montserrat/montserrat-regular.woff") format("woff"), url("Montserrat/montserrat-regular.ttf") format("truetype"), url("Montserrat/montserrat-regular.svg#Montserrat") format("svg");
+    src: local("Montserrat Regular"), local("Montserrat-Regular"), url("Montserrat/montserrat-regular.eot?#iefix") format("embedded-opentype"),
+         url("Montserrat/montserrat-regular.woff2") format("woff2"), url("Montserrat/montserrat-regular.woff") format("woff"),
+         url("Montserrat/montserrat-regular.ttf") format("truetype"), url("Montserrat/montserrat-regular.svg#Montserrat") format("svg");
     font-style: normal;
     font-weight: normal;
 }
@@ -15,13 +17,13 @@ body {
     margin: auto;
 }
 
-    body h1, h2, h3 {
-        text-transform: uppercase;
-    }
+body h1, h2, h3 {
+    text-transform: uppercase;
+}
 
-    body ul {
-        list-style-type: none;
-    }
+body ul {
+    list-style-type: none;
+}
 
 /* En-tête */
 header {
@@ -31,16 +33,14 @@ header {
 #photo {
     background-color: #ffc107;
     width: 32%;
-    text-align:center;
-    padding-top:20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 img {
-
     border-radius: 5em;
     border: solid 4px rgba(68, 68, 68, 0.2);
     max-width: 100%;
-    
 }
 
 #identite {
@@ -49,13 +49,13 @@ img {
 }
 
 #identite h1 {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 #identite p {
-    margin-top:5px;
-    color:#444444;
-}
+    margin-top: 5px;
+    color: #444444;
+    }
 
 h1 span {
     color: #ffc107;
@@ -71,28 +71,28 @@ aside {
     color: #444444;
     width: 32%;
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
 }
 
-    aside h3 {
-        background-color: #444444;
-        color: #ffc107;
-        text-align: center;
-        padding:7px 0;
-    }
+aside h3 {
+    background-color: #444444;
+    color: #ffc107;
+    text-align: center;
+    padding: 7px 0;
+}
 
-    aside .fas {
-        font-size: 2.8em;
-    }
+aside .fas {
+    font-size: 2.8em;
+}
 
-    aside li {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+aside li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 #contact a {
-    color:inherit;
-    text-decoration:inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
 #motive {
@@ -100,17 +100,14 @@ aside {
 }
 
 #motive p {
-        padding-left: 40px;
-        padding-right: 40px;
-        text-align:justify;
-        
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
 }
 
-
-
 #loisir p {
-        display: flex;
-        justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Corps */
@@ -129,6 +126,7 @@ section {
     padding-left: 50px;
     width: 63%;
 }
+
 section i {
     color: #ffc107;
 }
@@ -136,8 +134,9 @@ section i {
 section p, h3 {
     color: #444444;
 }
-section p{
-    text-align:justify;
+
+section p {
+    text-align: justify;
 }
 
 .fa-briefcase:before {
@@ -165,9 +164,9 @@ section p{
     display: flex;
 }
 
-    .date p {
-        padding-left: 10px;
-    }
+.date p {
+    padding-left: 10px;
+}
 
 .detail {
     width: 70%;
@@ -182,26 +181,27 @@ footer {
     margin-left: 32%;
     position: relative;
     bottom: 170px;
-
 }
+
 footer a {
-    color:inherit;
-    text-decoration:inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
 
-    footer h2 {
-        border-bottom: #ffc107 solid 0.1em;
+footer h2 {
+    border-bottom: #ffc107 solid 0.1em;
     padding-bottom: 15px;
-    }
+}
 
-    footer ul {
-        padding-left:0;
-        width:50%;
-       
-    }
-    footer p {
-     color: #444444;
-	}
-    footer i {
-     color: #ffc107;
-	}
+footer ul {
+    padding-left: 0;
+    width: 50%;
+}
+
+footer p {
+    color: #444444;
+}
+
+footer i {
+    color: #ffc107;
+}
