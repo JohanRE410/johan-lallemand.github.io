@@ -9,17 +9,14 @@
 /* Eléments principaux de la page */
 body {
     font-family: "Montserrat", arial, sans-serif;
-    background-color: #fcfdfc;
-    color: #181818;
-    width: 100%;
+    background-color: #fafafa;
+    color: #212121;
+    max-width: 1190px;
+    margin: auto;
 }
 
     body h1, h2, h3 {
         text-transform: uppercase;
-    }
-
-    body p {
-        text-align: justify;
     }
 
     body ul {
@@ -32,80 +29,89 @@ header {
 }
 
 #photo {
-    background-color: #f2e422;
-    width: 35%;
+    background-color: #ffc107;
+    width: 32%;
+    text-align:center;
+    padding-top:20px;
 }
 
 img {
 
-    margin: auto;
     border-radius: 5em;
-    border: solid 4px rgba(117, 119, 118, 0.2);
+    border: solid 4px rgba(68, 68, 68, 0.2);
     max-width: 100%;
+    
 }
 
 #identite {
-    width: 60%;
     padding-left: 50px;
     margin-top: 65px;
 }
 
+#identite h1 {
+    margin-bottom:10px;
+}
+
+#identite p {
+    margin-top:5px;
+    color:#444444;
+}
+
 h1 span {
-    color: #f4be2d;
+    color: #ffc107;
 }
 
 p span {
-    text-decoration: underline #f4be2d;
+    text-decoration: underline #ffc107;
 }
 
 /* Bannière */
-main {
-    background-color: #f2e422;
-    color: #274897;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-    height: 1074px;
+aside {
+    background-color: #ffc107;
+    color: #444444;
+    width: 32%;
+    display: inline-block;
+    vertical-align:top;
 }
 
-    main h3 {
-        background-color: #274897;
-        color: #f2e422;
+    aside h3 {
+        background-color: #444444;
+        color: #ffc107;
         text-align: center;
+        padding:7px 0;
     }
 
-    main .fas {
+    aside .fas {
         font-size: 2.8em;
     }
 
-    main li {
+    aside li {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-#contact {
-    height: 320px;
+#contact a {
+    color:inherit;
+    text-decoration:inherit;
 }
 
 #motive {
-    height: 660px;
+    height: 650px;
 }
 
-    #motive p {
+#motive p {
         padding-left: 40px;
         padding-right: 40px;
-    }
-
-#loisir {
-    height: 182px;
+        text-align:justify;
+        
 }
 
-    #loisir p {
+
+
+#loisir p {
         display: flex;
-        padding-top: 2em;
         justify-content: space-around;
-    }
+}
 
 /* Corps */
 .titre {
@@ -114,16 +120,24 @@ main {
 }
 
 section h2 {
-    color: #757776;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+    border-bottom: #ffc107 solid 0.1em;
+    padding-bottom: 15px;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     padding-left: 50px;
-    width: 60%;
+    width: 63%;
+}
+section i {
+    color: #ffc107;
+}
+
+section p, h3 {
+    color: #444444;
+}
+section p{
+    text-align:justify;
 }
 
 .fa-briefcase:before {
@@ -143,7 +157,7 @@ section {
 }
 
 .date i {
-    color: #f4be2d;
+    color: #ffc107;
 }
 
 .date {
@@ -162,18 +176,32 @@ section {
 
 /* Pied de page */
 footer {
-    width: 60%;
+    width: 63%;
     padding-left: 50px;
     display: inline-block;
+    margin-left: 32%;
+    position: relative;
+    bottom: 170px;
+
+}
+footer a {
+    color:inherit;
+    text-decoration:inherit;
 }
 
     footer h2 {
-        color: #757776;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;
+        border-bottom: #ffc107 solid 0.1em;
+    padding-bottom: 15px;
     }
 
     footer ul {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left:0;
+        width:50%;
+       
     }
+    footer p {
+     color: #444444;
+	}
+    footer i {
+     color: #ffc107;
+	}
