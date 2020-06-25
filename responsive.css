@@ -15,9 +15,9 @@
     }
 
     main {
-        flex-direction: row;
         width: 95%;
         margin: auto;
+        display: block;
     }
 
     aside {
@@ -46,15 +46,5 @@
         width: 50%;
     }    
 
-    footer {
-        width: 95%;
-        margin: auto;
-        display: block;
-        padding-left: 0;
-        position: initial;
-    }
-
-    footer h2 {
-            text-align: center;
-    }
+    
 }
