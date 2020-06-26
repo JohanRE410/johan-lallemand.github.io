@@ -143,6 +143,11 @@ section p {
     text-align: justify;
 }
 
+.titre ul {
+    width: 50%;
+    padding-left: 0;
+}
+
 .fa-briefcase:before {
     padding-right: 30px;
 }
