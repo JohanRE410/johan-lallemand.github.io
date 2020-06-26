@@ -3,7 +3,8 @@
     src: local("Montserrat-Regular"),
          url("Montserrat/montserrat-regular.woff") format("woff"),
          url("Montserrat/montserrat-regular.ttf") format("truetype"),
-         url("Montserrat/montserrat-regular.otf") format("opentype");
+         url("Montserrat/montserrat-regular.otf") format("opentype"),
+         url("Montserrat/montserrat-regular.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
@@ -91,7 +92,7 @@ aside li {
     padding-bottom: 10px;
 }
 
-#contact a {
+main a {
     color: inherit;
     text-decoration: inherit;
 }
