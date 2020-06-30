@@ -187,17 +187,18 @@ section p {
 }
 
 .date {
-    width: 30%;
+    width: 35%;
     display: flex;
 }
 
 .date p {
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
 }
 
 .detail {
-    width: 70%;
+    width: 65%;
     padding-right: 10px;
     padding-left: 10px;
 }
