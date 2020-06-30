@@ -1,10 +1,10 @@
 ﻿@font-face {
     font-family: "Montserrat-Regular";
     src: local("Montserrat-Regular"),
-         url("Montserrat/montserrat-regular.woff") format("woff"),
-         url("Montserrat/montserrat-regular.ttf") format("truetype"),
-         url("Montserrat/montserrat-regular.otf") format("opentype"),
-         url("Montserrat/montserrat-regular.woff2") format("woff2");
+         url("Montserrat/Montserrat-Regular.woff") format("woff"),
+         url("Montserrat/Montserrat-Regular.ttf") format("truetype"),
+         url("Montserrat/Montserrat-Regular.otf") format("opentype"),
+         url("Montserrat/Montserrat-Regular.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
