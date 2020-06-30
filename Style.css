@@ -193,10 +193,12 @@ section p {
 
 .date p {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .detail {
     width: 70%;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
