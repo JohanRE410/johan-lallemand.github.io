@@ -58,7 +58,7 @@ header {
 
 img {
     border-radius: 5em;
-    border: solid 4px rgba(68, 68, 68, 0.2);
+    border: solid 4px rgba(66, 66, 66, 0.2);
     max-width: 100%;
 }
 
@@ -73,7 +73,7 @@ img {
 
 #identite p {
     margin-top: 5px;
-    color: #444444;
+    color: #424242;
     }
 
 h1 span {
@@ -87,14 +87,14 @@ p span {
 /* Bannière */
 aside {
     background-color: #ffc107;
-    color: #444444;
+    color: #424242;
     width: 32%;
     display: flex;
     flex-direction: column;
 }
 
 aside h3 {
-    background-color: #444444;
+    background-color: #424242;
     color: #ffc107;
     text-align: center;
     padding: 7px 0;
@@ -154,7 +154,7 @@ section i {
 }
 
 section p, h3, ul {
-    color: #444444;
+    color: #424242;
 }
 
 section p {
