@@ -12,8 +12,8 @@
 /* Eléments principaux de la page */
 body {
     font-family: "Montserrat-Regular", arial, sans-serif;
-    background-color: #fafafa;
-    color: #212121;
+    background-color: #FCC23A;
+    color: #0057A3;
     max-width: 1190px;
     margin: auto;
     font-size: 100%;
@@ -50,7 +50,7 @@ header {
 }
 
 #photo {
-    background-color: #ffc107;
+    background-color: #FCC23A;
     width: 32%;
     text-align: center;
     padding-top: 20px;
@@ -73,29 +73,29 @@ img {
 
 #identite p {
     margin-top: 5px;
-    color: #424242;
+    color: #0057A3;
     }
 
 h1 span {
-    color: #ffc107;
+    color: #FCC23A;
 }
 
 p span {
-    text-decoration: underline #ffc107;
+    text-decoration: underline #FCC23A;
 }
 
 /* Bannière */
 aside {
-    background-color: #ffc107;
-    color: #424242;
+    background-color: #FCC23A;
+    color: #0057A3;
     width: 32%;
     display: flex;
     flex-direction: column;
 }
 
 aside h3 {
-    background-color: #424242;
-    color: #ffc107;
+    background-color: #0057A3;
+    color: #FCC23A;
     text-align: center;
     padding: 7px 0;
 }
@@ -140,7 +140,7 @@ main {
 }
 
 section h2 {
-    border-bottom: #ffc107 solid 0.1em;
+    border-bottom: #FCC23A solid 0.1em;
     padding-bottom: 15px;
 }
 
@@ -150,11 +150,11 @@ section {
 }
 
 section i {
-    color: #ffc107;
+    color: #FCC23A;
 }
 
 section p, h3, ul {
-    color: #424242;
+    color: #0057A3;
 }
 
 section p {
@@ -183,7 +183,7 @@ section p {
 }
 
 .date i {
-    color: #ffc107;
+    color: #FCC23A;
 }
 
 .date {
